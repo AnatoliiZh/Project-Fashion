@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Serif', serif;
+}
+
+.container{
+    width: 1920px;
+  margin: 0 auto;
+  /* padding: 0 15px; */
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+
+}
+
+.logo{
+    margin-left: 80px;
+}
+
+.logo a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 2.5px;
+    color: #171717;
+}
+
+
+.menu{
+    display: flex;    
+    margin-right: 80px;
+}
+
+.menu a{    
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #171717;
+}
+
+.menu a:hover{
+    color: #C9A96E;
+}
+
+
+.menu li{
+    margin-left: 40px;
+}
+
+.baner{
+    background-image: url("images/Hero.jpg");
+    height: 700px;
+    position: relative;
+}
+
+.baner-text{
+    position: absolute;
+    bottom: 60px;
+    left: 375px;
+}
+
+.baner-text-category{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;    
+    text-transform: uppercase;
+    color: #FFFFFF;  
+}
+
+
+.baner-text-data{
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;    
+}
+
+.baner-text-title{
+    font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+color: #FFFFFF;
+width: 560px;
+margin: 5px 0 15px 0;
+}
+
+.main{
+    display: flex;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+  flex-wrap: wrap;
+  width: 770px; 
+  margin-left: 375px;
+  margin-top: 60px;
+}
+
+.post{
+    width: 370px;
+    margin-bottom: 30px;
+    border: 0px solid #979797; 
+    box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
+}
+
+.post-category{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #C9A96E;       
+    text-align: center;
+    margin-top: 15px;
+}
+
+.post-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #171717;
+    margin-top: 4px;
+    padding: 0 70px;    
+}
+
+.post-data{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #666666;
+    margin-top: 10px;
+    /* margin-bottom: 14px; */
+    padding-bottom: 14px;
+}
+
+.by{
+    color: #B1B1B1;
+    padding-left: 10px;
+}
+
+.post-big-category{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #C9A96E;       
+    text-align: left;
+    margin-top: 25px;
+    padding-left: 30px;
+}
+
+.post-big-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    color: #171717;
+    margin-top: 6px;
+    padding-left: 30px;        
+}
+
+.post-big-data{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    color: #666666;
+    margin-top: 12px;
+    padding-left: 30px;
+    
+}
+
+.post-big-content{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    margin-top: 14px;
+    padding: 0 126px 25px 30px;
+}
+
+
+.pagination{
+    width: 509px;
+    height: 50px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;    
+    border: 1px solid #E5E5E5;
+    margin-left: 135px;
+
+}
+
+.pagination a{
+    font-family: 'PT Sans';    
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 16px;
+    color: #171717;
+}
+
+.pagination .older-post{
+    font-family: 'PT Sans';    
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 16px;
+    color: #A2A2A2;
+}
+
+
+
+
+.pagination li{
+    margin-right: 30px;
+}
+
+.pagination li:last-child{
+    margin-right: 0;
+}
+
+.pagination li:first-child::before{
+    content: "<";
+    font-family: 'PT Sans';    
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 16px;
+    margin-right: 10px;
+    color: #A2A2A2;
+}
+
+.pagination li:last-child::after{
+    content: ">";
+    font-family: 'PT Sans';    
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 16px;
+    margin-left: 10px;
+    color: #171717;
+}
+
+.aside{
+    margin-top: 60px;
+    margin-left: 130px;
+}
+
