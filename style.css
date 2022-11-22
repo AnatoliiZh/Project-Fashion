@@ -22,6 +22,16 @@ body{
 
 .logo{
     margin-left: 80px;
+    position: relative;
+}
+
+.line{
+    position: absolute;
+    top: 17px;
+    width: 127px;
+    height: 6px;
+    background-color: rgba(201, 169, 110, 0.35);
+    z-index: -1;
 }
 
 .logo a, .logo-footer a{
@@ -459,8 +469,19 @@ margin: 5px 0 15px 0;
     margin-left: 0;
     margin-top: 100px;
     text-align: center;
+    position: relative;
 }
 
+.line-footer{
+    position: absolute;
+    top: 17px;
+    left: 896px;
+    width: 127px;
+    height: 6px;
+    background-color: rgba(201, 169, 110, 0.35);
+    
+    z-index: -1;
+}
 
 .box-menu-footer{
     display: flex;    
