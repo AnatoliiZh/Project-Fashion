@@ -34,6 +34,11 @@ body{
     z-index: -1;
 }
 
+.logo:hover > .line{
+    transform: scale(1.2);
+}
+
+
 .logo a, .logo-footer a{
     text-decoration: none;
     font-style: normal;
@@ -129,6 +134,16 @@ margin: 5px 0 15px 0;
     margin-bottom: 30px;
     border: 0px solid #979797; 
     box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
+}
+
+.post-image img:hover {
+    transform: scale(1.2);
+}
+
+.post-image {
+    overflow: hidden;
+    width: 370px;
+    height: 280px;
 }
 
 .post-big{
@@ -524,8 +539,13 @@ margin: 5px 0 15px 0;
 }
 
 .social-list-footer li:hover{
-    background-color: #C9A96E;
+    background-color: #C9A96E;    
 }
+
+.social-list-footer li:hover > img {        
+    transform: scale(1.2);
+}
+
 
 
 .social-image-footer{
