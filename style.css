@@ -495,10 +495,20 @@ margin: 5px 0 15px 0;
     height: 34px;
     border: 1px solid #E5E5E5;
     border-radius: 50%;
-    display: flex;
-    /* align-items: center;s */
-    justify-content: center;   
-    margin-bottom: 2px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;    
+    /* line-height: 34px;
+    text-align: center; */
+}
+
+.social-list-footer li:hover{
+    background-color: #C9A96E;
+}
+
+
+.social-image-footer{
+    transform: scale(0.7);
 }
 
 .box-copyright{
