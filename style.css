@@ -99,13 +99,19 @@ margin: 5px 0 15px 0;
     display: flex;
 }
 
+.content-box{
+    width: 770px; 
+    margin-left: 375px;
+    margin-top: 60px;
+}
+
 .content{
     display: flex;
     justify-content: space-between;
   flex-wrap: wrap;
-  width: 770px; 
+  /* width: 770px; 
   margin-left: 375px;
-  margin-top: 60px;
+  margin-top: 60px; */
 }
 
 .post{
@@ -205,6 +211,10 @@ margin: 5px 0 15px 0;
     padding: 0 126px 25px 30px;
 }
 
+.pagination-box{
+    display: flex;
+    justify-content: center;
+}    
 
 .pagination{
     width: 509px;
@@ -213,7 +223,7 @@ margin: 5px 0 15px 0;
     align-items: center;
     justify-content: center;    
     border: 1px solid #E5E5E5;
-    margin-left: 135px;
+    /* margin-left: 135px; */
 
 }
 
