@@ -24,13 +24,13 @@ body{
     margin-left: 80px;
 }
 
-.logo a{
+.logo a, .logo-footer a{
     text-decoration: none;
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
     letter-spacing: 2.5px;
-    color: #171717;
+    color: #171717;      
 }
 
 
@@ -39,7 +39,7 @@ body{
     margin-right: 80px;
 }
 
-.menu a{    
+.menu a, .menu-footer a{    
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
@@ -47,7 +47,7 @@ body{
     color: #171717;
 }
 
-.menu a:hover{
+.menu a:hover, .menu-footer a:hover{
     color: #C9A96E;
 }
 
@@ -422,4 +422,93 @@ margin: 5px 0 15px 0;
     font-weight: 400;
     font-size: 14px;
     color: #666666;
+}
+
+.follow{
+    /* font-style: normal;
+    font-weight: 400; */
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;    
+    color: #171717;
+    margin-top: 80px;
+}
+
+.gallery{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gallery li{
+    width: 296px;
+    height: 296px;    
+}
+
+.logo-footer{
+    margin-left: 0;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.box-menu-footer{
+    display: flex;    
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.menu-footer{
+    display: flex;
+    width: 353px;
+    justify-content: space-between;
+}
+
+.menu-footer a{
+    font-family: 'PT Sans';
+}
+
+.box-social-list-footer{
+    display: flex;    
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.social-list-footer{
+    display: flex;
+    width: 304px;
+    justify-content: space-between;
+}
+
+.social-list-footer li{
+    width: 34px;
+    height: 34px;
+    border: 1px solid #E5E5E5;
+    border-radius: 50%;
+    display: flex;
+    /* align-items: center;s */
+    justify-content: center;   
+    margin-bottom: 2px;
+}
+
+.box-copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.copyright{
+    width: 1170px;
+    border-top: 1px solid #E5E5E5;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #666666;
+
 }
